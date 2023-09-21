@@ -1,26 +1,26 @@
-import React from "react";
-let btnOpen = document.querySelector(".btnOpen");
-let btnClose = document.querySelector(".btnClose");
-let mySidebar = document.querySelector(".mySidebar");
+import React, { useState } from "react";
 
-btnOpen.addEventListener("click", function () {
-  mySidebar.style.display = "block";
-  mySidebar.style.width = "22rem";
-  btnClose.style.display = "block";
-  btnOpen.style.display = "none";
-});
-btnClose.addEventListener("click", function () {
-  mySidebar.style.width = "4rem";
-  btnClose.style.display = "none";
-  btnOpen.style.display = "block";
-});
 const Sidebar = () => {
+  const [sidebarVisible, setSidebarVisible] = useState(false);
+
+  const openSidebar = () => {
+    setSidebarVisible(true);
+  };
+
+  const closeSidebar = () => {
+    setSidebarVisible(false);
+  };
+
   return (
-    <div className="mySidebar">
+    <div className={`mySidebarClosed ${sidebarVisible ? "mySidebarOpen" : ""}`}>
       <ul className="listSidebar">
         <li>
-          <button className="btnClose">Close &times;</button>
-          <button className="btnOpen">&#9776;</button>
+          <button className={`btnClose ${sidebarVisible ? "btnCloseVisible" : ""}`} onClick={closeSidebar}>
+            Close &times;
+          </button>
+          <button className={`btnOpen ${!sidebarVisible ? "btnOpenVisible" : ""}`} onClick={openSidebar}>
+            &#9776;
+          </button>
         </li>
         <li>
           <button className="lien lienSidebar">Diagrammes structurels</button>
