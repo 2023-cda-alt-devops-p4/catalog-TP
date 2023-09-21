@@ -1,21 +1,35 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Sidebar = () => {
+  const [sidebarVisible, setSidebarVisible] = useState(false);
+
+  const openSidebar = () => {
+    setSidebarVisible(true);
+  };
+
+  const closeSidebar = () => {
+    setSidebarVisible(false);
+  };
+
   return (
-    <div className="mySidebar">
+    <div className={`mySidebarClosed ${sidebarVisible ? "mySidebarOpen" : ""}`}>
       <ul className="listSidebar">
         <li>
-          <button className="btnClose">Close &times;</button>
-          <button className="btnOpen">&#9776;</button>
+          <button className={`btnClose ${sidebarVisible ? "btnCloseVisible" : ""}`} onClick={closeSidebar}>
+            Close &times;
+          </button>
+          <button className={`btnOpen ${!sidebarVisible ? "btnOpenVisible" : ""}`} onClick={openSidebar}>
+            &#9776;
+          </button>
         </li>
         <li>
-          <button className="lien">Diagrammes structurels</button>
+          <button className={`lien ${!sidebarVisible ? "lienSidebar" : ""}`}>Diagrammes structurels</button>
         </li>
         <li>
-          <button className="lien">Link 1</button>
+          <button className={`lien ${!sidebarVisible ? "lienSidebar" : ""}`}>Link 1</button>
         </li>
         <li>
-          <button className="lien">Link 2</button>
+          <button className={`lien ${!sidebarVisible ? "lienSidebar" : ""}`}>Link 2</button>
         </li>
       </ul>
     </div>
