@@ -6,61 +6,45 @@
   text-decoration: none;
 }
 
-.navigation ul {
+.navigation {
   display: flex;
-  justify-content: space-evenly;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
 }
 
-.main {
-  margin-left: 18rem;
-  margin-top: 1rem;
-}
-.main h1 {
-  font-size: 3rem;
-}
-.main p {
-  text-align: justify;
-  padding: 1rem;
-  padding-right: 4rem;
-  padding-left: 4rem;
-}
-.sommaire {
+.navigation button {
   font-size: 2rem;
-  padding-left: 1rem;
 }
-
 .mySidebar {
-  width: 17rem;
+  width: 3rem;
   height: 100vh;
   padding-top: 1rem;
   background-color: #ffc4a3;
   color: white;
   display: block;
-  position: fixed;
-  overflow-y: scroll;
+  position: absolute;
+  z-index: 100;
+
   border-top-right-radius: 20px;
+}
+.lienSidebar {
+  display: none;
 }
 
 .listSidebar {
-  padding: 1rem;
+  padding: 0.5rem;
 }
 .btnClose {
   width: 50%;
   height: 2rem;
   margin-left: 5%;
-}
-.btnOpen {
   display: none;
 }
-
-.btnClose,
 .btnOpen {
-  border: none;
-  background-color: #219ebc;
-  border-radius: 5px;
+  display: block;
 }
 
-/* CSS */
 .btnClose,
 .btnOpen {
   appearance: none;

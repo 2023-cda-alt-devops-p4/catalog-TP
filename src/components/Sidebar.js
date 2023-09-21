@@ -9,13 +9,13 @@ const Sidebar = () => {
           <button className="btnOpen">&#9776;</button>
         </li>
         <li>
-          <button className="lien">Diagrammes structurels</button>
+          <button className="lien lienSidebar">Diagrammes structurels</button>
         </li>
         <li>
-          <button className="lien">Link 1</button>
+          <button className="lien lienSidebar">Link 1</button>
         </li>
         <li>
-          <button className="lien">Link 2</button>
+          <button className="lien lienSidebar">Link 2</button>
         </li>
       </ul>
     </div>
