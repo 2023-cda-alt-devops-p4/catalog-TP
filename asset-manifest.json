@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/catalog-TP/static/css/main.7b882282.css",
+    "main.js": "/catalog-TP/static/js/main.e9da373e.js",
+    "index.html": "/catalog-TP/index.html",
+    "main.7b882282.css.map": "/catalog-TP/static/css/main.7b882282.css.map",
+    "main.e9da373e.js.map": "/catalog-TP/static/js/main.e9da373e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b882282.css",
+    "static/js/main.e9da373e.js"
+  ]
+}
