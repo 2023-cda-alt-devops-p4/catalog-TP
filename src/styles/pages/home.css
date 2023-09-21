@@ -45,9 +45,13 @@ body {
   top: 2rem;
   z-index: 1;
   border-top-right-radius: 20px;
+
+  transition: all 0.2s;
+  -webkit-transition: all 0.25s;
 }
+
 .mySidebarOpen {
-  width: 22rem;
+  width: 20rem;
   height: 100%;
   padding-top: 1rem;
   background-color: black;
@@ -115,6 +119,7 @@ body {
 }
 
 .lien {
+  color: white;
   position: relative;
   text-decoration: none;
   border: none;

@@ -23,13 +23,13 @@ const Sidebar = () => {
           </button>
         </li>
         <li>
-          <button className="lien lienSidebar">Diagrammes structurels</button>
+          <button className={`lien ${!sidebarVisible ? "lienSidebar" : ""}`}>Diagrammes structurels</button>
         </li>
         <li>
-          <button className="lien lienSidebar">Link 1</button>
+          <button className={`lien ${!sidebarVisible ? "lienSidebar" : ""}`}>Link 1</button>
         </li>
         <li>
-          <button className="lien lienSidebar">Link 2</button>
+          <button className={`lien ${!sidebarVisible ? "lienSidebar" : ""}`}>Link 2</button>
         </li>
       </ul>
     </div>
