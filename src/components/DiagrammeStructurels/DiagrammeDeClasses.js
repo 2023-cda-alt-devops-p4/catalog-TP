@@ -2,7 +2,7 @@ import React from "react";
 
 const DiagrammeDeClasses = () => (
   <div>
-    <section class="diagrammeDeClasses">
+    <section className="diagrammeDeClasses">
       <h3>Diagramme de Classes</h3>
       <p>
         Ce type d’exemples de diagrammes UML est souvent appelé le fondement principal de toute solution orientée objet.

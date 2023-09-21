@@ -14,7 +14,7 @@ const Main = () => {
         objets du système interagissent les uns avec les autres. Pour en savoir plus sur les types de diagrammes UML,
         veuillez consulter le reste du contenu ci-dessous.
       </p>
-      <h2 class="sommaire">Sommaire</h2>
+      <h2 className="sommaire">Sommaire</h2>
       <h2>Diagrammes structurels</h2>
       <ul>
         <li>Diagramme de classes</li>
