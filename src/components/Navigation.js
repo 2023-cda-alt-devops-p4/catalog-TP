@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const Navigation = () => {
   return (
     <div className="navigation">
-      <NavLink to="/">
+      <NavLink to="UML">
         <div className="lienUML">UML</div>
       </NavLink>
       <NavLink to="/">
