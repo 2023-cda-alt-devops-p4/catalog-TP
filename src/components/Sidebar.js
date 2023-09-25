@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 
 const Sidebar = () => {
   const [sidebarVisible, setSidebarVisible] = useState(false);
@@ -23,13 +24,19 @@ const Sidebar = () => {
           </button>
         </li>
         <li>
-          <button className={`lien ${!sidebarVisible ? "lienSidebar" : ""}`}>Diagrammes structurels</button>
+          <NavLink to="UML">
+            <div className={`lien ${!sidebarVisible ? "lienSidebar" : ""}`}>UML</div>
+          </NavLink>
         </li>
         <li>
-          <button className={`lien ${!sidebarVisible ? "lienSidebar" : ""}`}>Link 1</button>
+          <NavLink to="UMLClasses">
+            <div className={`lien ${!sidebarVisible ? "lienSidebar" : ""}`}>Diagrammes de classes</div>
+          </NavLink>
         </li>
         <li>
-          <button className={`lien ${!sidebarVisible ? "lienSidebar" : ""}`}>Link 2</button>
+          <NavLink to="UML">
+            <div className={`lien ${!sidebarVisible ? "lienSidebar" : ""}`}>UML</div>
+          </NavLink>
         </li>
       </ul>
     </div>

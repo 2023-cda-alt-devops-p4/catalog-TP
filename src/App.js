@@ -8,7 +8,8 @@ const App = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="UML" element={<Uml/>} />
+        <Route path="UML" element={<Uml />} />
+        <Route path="UMLClasses" element={<Uml />} />
         {/* path="*" fonctionne si jamais l'url ne correspond a rien de déclaré au dessus */}
       </Routes>
     </BrowserRouter>

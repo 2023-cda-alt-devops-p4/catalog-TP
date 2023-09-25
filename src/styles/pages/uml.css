@@ -9,6 +9,25 @@
 body {
   background-color: #ebe8ff;
 }
-.diagrammeDeClasses {
+.diagrammeUML {
   margin-left: 4rem;
+}
+.diagrammeStructurel {
+  padding: 1rem;
+}
+.titreUML {
+  font-size: calc(7000vw / 818);
+  padding-top: 1rem;
+  padding-bottom: 0.8rem;
+  text-align: center;
+  letter-spacing: 0.5rem;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
+p {
+  text-align: justify;
+  padding-right: 1rem;
+}
+.diagrammeStructurel img {
+  width: 100%;
 }
