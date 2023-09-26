@@ -1,9 +1,10 @@
 * {
   margin: 0%;
   color: #264653;
-  font-family: "Nunito", sans-serif;
+  font-family: "Noto Serif", serif;
   list-style: none;
   text-decoration: none;
+  overflow: hidden;
 }
 body {
   background-color: #e9c46a;

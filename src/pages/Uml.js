@@ -7,9 +7,11 @@ const Uml = () => {
   return (
     <div>
       <Sidebar />
-      <div className="">
-        <DiagrammeStructurels />
-      </div>
+      <section className="diagrammeUML">
+        <div className="diagrammeStructurel">
+          <DiagrammeStructurels />
+        </div>
+      </section>
     </div>
   );
 };
