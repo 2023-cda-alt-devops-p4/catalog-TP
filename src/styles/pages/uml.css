@@ -4,7 +4,6 @@
   font-family: "Nunito", sans-serif;
   list-style: none;
   text-decoration: none;
-  overflow: hidden;
 }
 
 body {
@@ -31,4 +30,7 @@ p {
 }
 .diagrammeStructurel img {
   width: 100%;
+}
+h3 {
+  padding: 0.5rem;
 }
