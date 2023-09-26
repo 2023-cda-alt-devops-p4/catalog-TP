@@ -4,6 +4,7 @@
   font-family: "Noto Serif", serif;
   list-style: none;
   text-decoration: none;
+  overflow: hidden;
 }
 body {
   background-color: #e9c46a;

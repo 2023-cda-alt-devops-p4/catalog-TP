@@ -24,6 +24,9 @@ const Sidebar = () => {
           </button>
         </li>
         <li>
+          <NavLink to="/">
+            <div className={`lien ${!sidebarVisible ? "lienSidebar" : ""}`}>Accueil</div>
+          </NavLink>
           <NavLink to="UML">
             <div className={`lien ${!sidebarVisible ? "lienSidebar" : ""}`}>UML</div>
           </NavLink>

@@ -7,7 +7,7 @@ const Navigation = () => {
       <NavLink to="UML">
         <div className="lienUML">UML</div>
       </NavLink>
-      <NavLink to="/">
+      <NavLink to="MERISE">
         <div className="lienMerise">Merise</div>
       </NavLink>
     </div>
