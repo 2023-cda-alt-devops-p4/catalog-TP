@@ -41,8 +41,6 @@ const DiagrammeStructurels = () => {
         <DiagrammeDActivite />
         <DiagrammeDeCasDUtilisation />
         <DiagrammeDeCommunication />
-        <DiagrammeDeDeploiement />
-        <DiagrammeDePaquetage />
         <DiagrammeDePresentationDesInteractions />
         <DiagrammeDeProfil />
         <DiagrammeDeSequence />
