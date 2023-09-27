@@ -35,7 +35,7 @@ const DiagrammeDeDeploiement = () => {
         des systèmes pour s'assurer que tout fonctionne correctement, comme dans une maison où il faut s'assurer que
         l'électricité, la plomberie et les différentes pièces sont bien connectées.
       </p>
-      <img src="" alt="public/deployment_diagram_real_estate-700x573.webp" />
+      <img src="diagramme_deploiemeny.png" alt="" />
     </div>
   );
 };
