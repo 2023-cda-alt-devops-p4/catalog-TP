@@ -4,6 +4,7 @@
   font-family: "Nunito", sans-serif;
   list-style: none;
   text-decoration: none;
+  overflow-x: hidden;
 }
 
 body {
@@ -11,6 +12,7 @@ body {
 }
 .diagrammeUML {
   margin-left: 3rem;
+  width: 98vw;
 }
 .diagrammeStructurel {
   padding: 1rem;
@@ -26,11 +28,16 @@ body {
 }
 p {
   text-align: justify;
-  padding-right: 1rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
 }
 .diagrammeStructurel img {
-  width: 100%;
+  width: 52%;
 }
 h3 {
   padding: 0.5rem;
+}
+
+.diagrammeStructurel li {
+  padding: 1rem;
 }
