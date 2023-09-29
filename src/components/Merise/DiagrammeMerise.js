@@ -1,6 +1,7 @@
 import React from "react";
 import MeriseFluxDeDonnees from "./MeriseFluxDeDonnees";
 import MeriseEntiteRelation from "./MeriseEntiteRelation";
+import MeriseSpecificationDesTraitements from "./MeriseSpecificactionDesTraitements";
 
 const DiagrammeMerise = () => {
   return (
@@ -20,6 +21,7 @@ const DiagrammeMerise = () => {
       <div className="corpus">
         <MeriseFluxDeDonnees />
         <MeriseEntiteRelation />
+        <MeriseSpecificationDesTraitements />
       </div>
     </div>
   );
