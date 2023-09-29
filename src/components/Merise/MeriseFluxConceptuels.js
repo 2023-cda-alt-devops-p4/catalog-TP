@@ -11,37 +11,38 @@ const MeriseFluxConceptuels = () => {
         relations entre eux à un niveau global, sans entrer dans les détails techniques. Voici une explication plus
         détaillée des éléments clés d'un Diagramme de Flux de Données Niveau Conceptuel (DFD-N) :
         <li>
-          Flux de Données : Les flux de données représentent la manière dont les données circulent entre les différents
-          éléments du système, tels que les entités externes, les processus et les bases de données. Les flux de données
-          sont généralement représentés par des flèches qui indiquent la direction du mouvement des données. Chaque flux
-          de données est identifié par un nom significatif, par exemple, "Commande", "Facture", "Client", etc.
+          - Flux de Données : Les flux de données représentent la manière dont les données circulent entre les
+          différents éléments du système, tels que les entités externes, les processus et les bases de données. Les flux
+          de données sont généralement représentés par des flèches qui indiquent la direction du mouvement des données.
+          Chaque flux de données est identifié par un nom significatif, par exemple, "Commande", "Facture", "Client",
+          etc.
         </li>
         <li>
-          Entités Externes : Les entités externes sont des acteurs ou des systèmes externes au système en cours de
+          - Entités Externes : Les entités externes sont des acteurs ou des systèmes externes au système en cours de
           modélisation, mais qui interagissent avec lui en fournissant ou en recevant des données. Les entités externes
           sont représentées par des formes géométriques telles que des rectangles et sont étiquetées pour indiquer leur
           rôle, par exemple, "Client", "Fournisseur", "Système de paiement", etc.
         </li>
         <li>
-          Processus : Les processus représentent les étapes ou les opérations qui sont effectuées sur les données à
+          - Processus : Les processus représentent les étapes ou les opérations qui sont effectuées sur les données à
           l'intérieur du système. Chaque processus est identifié par un numéro ou un nom significatif et est
           généralement représenté par un cercle ou un ovale. Les processus sont responsables de la transformation des
           données, de leur traitement ou de leur validation.
         </li>
         <li>
-          Relations : Les relations entre les entités externes, les processus et les flux de données indiquent comment
+          - Relations : Les relations entre les entités externes, les processus et les flux de données indiquent comment
           ils sont connectés les uns aux autres. Les relations sont généralement illustrées par des lignes qui relient
           ces éléments. Elles montrent comment les données sont échangées entre les acteurs, les processus et les bases
           de données.
         </li>
         <li>
-          Bases de Données : Les bases de données, bien qu'elles soient moins détaillées dans un DFD-N, peuvent être
+          - Bases de Données : Les bases de données, bien qu'elles soient moins détaillées dans un DFD-N, peuvent être
           incluses pour montrer où les données sont stockées de manière persistante. Elles sont généralement
           représentées par des rectangles à coins arrondis. Chaque base de données peut avoir des flux de données
           entrants et sortants qui indiquent comment les données sont lues ou écrites.
         </li>
         <li>
-          Contrôles et Mécanismes : Bien que les détails de mise en œuvre ne soient pas inclus dans un DFD-N, vous
+          - Contrôles et Mécanismes : Bien que les détails de mise en œuvre ne soient pas inclus dans un DFD-N, vous
           pouvez indiquer de manière conceptuelle des contrôles, des règles de validation ou des mécanismes de sécurité
           qui s'appliquent aux flux de données ou aux processus.
         </li>
