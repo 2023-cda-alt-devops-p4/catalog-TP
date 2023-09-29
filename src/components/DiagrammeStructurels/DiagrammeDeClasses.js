@@ -1,7 +1,7 @@
 import React from "react";
 
 const DiagrammeDeClasses = () => (
-  <div>
+  <div id="diagrammeClasses">
     <section className="diagrammeDeClasses">
       <h3>Diagramme de Classes</h3>
       <p>

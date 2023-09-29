@@ -10,10 +10,7 @@
 body {
   background-color: #ebe8ff;
 }
-.diagrammeUML {
-  margin-left: 3rem;
-  width: 98vw;
-}
+
 .diagrammeStructurel {
   padding: 1rem;
 }
@@ -28,7 +25,6 @@ body {
 }
 p {
   text-align: justify;
-  padding-right: 2rem;
   padding-top: 1rem;
 }
 .diagrammeStructurel img {
@@ -40,4 +36,15 @@ h3 {
 
 .diagrammeStructurel li {
   padding: 1rem;
+}
+h2 {
+  text-decoration: underline;
+  padding: 0.5rem;
+}
+.headCorpus {
+  margin-left: 4rem;
+  margin-right: 1rem;
+}
+.corpus {
+  margin-left: 3rem;
 }

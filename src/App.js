@@ -9,8 +9,8 @@ const App = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="UML" element={<Uml />} />
-        <Route path="Merise" element={<Merise />} />
+        <Route path="/UML" element={<Uml />} />
+        <Route path="/Merise" element={<Merise />} />
         {/* path="*" fonctionne si jamais l'url ne correspond a rien de déclaré au dessus */}
       </Routes>
     </BrowserRouter>

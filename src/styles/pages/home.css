@@ -20,7 +20,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(9000vw / 818);
+  font-size: calc(6000vw / 818);
   width: 18.5rem;
   height: 15.5rem;
   background-color: #7561d8;
@@ -142,4 +142,12 @@ body {
 
 .lien:hover::before {
   transform: scaleX(1);
+}
+.Uml-lien {
+  font-size: 0.7rem;
+  color: white;
+  position: relative;
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
 }
