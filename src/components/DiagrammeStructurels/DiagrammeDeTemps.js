@@ -2,7 +2,7 @@ import React from "react";
 
 const DiagrammeDeTemps = () => {
   return (
-    <div>
+    <div id="diagrammeDeTemps">
       <h3>Diagramme de temps</h3>
       <p>
         Un diagramme structurel qui représente le changement d’état ou de valeur d’un ou plusieurs objets sur un certain

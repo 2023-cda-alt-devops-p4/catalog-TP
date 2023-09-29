@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 const Sidebar = () => {
   const [sidebarVisible, setSidebarVisible] = useState(false);
@@ -29,63 +29,59 @@ const Sidebar = () => {
           </NavLink>
         </li>
         <li>
-          <NavLink to="UML">
+          <NavLink to="/UML">
             <div className={`lien ${!sidebarVisible ? "lienSidebar" : ""}`}>UML</div>
           </NavLink>
         </li>
         <li>
-          <div className={`lien ${!sidebarVisible ? "lienSidebar" : ""}`}>Diagramme De Classes</div>{" "}
+          <div className={`Uml-lien  ${!sidebarVisible ? "lienSidebar" : ""}`}>- Diagramme De Classes</div>{" "}
         </li>
         <li>
-          <div className={`lien ${!sidebarVisible ? "lienSidebar" : ""}`}>Diagramme Des Composants</div>{" "}
+          <div className={`Uml-lien  ${!sidebarVisible ? "lienSidebar" : ""}`}>- Diagramme Des Composants</div>{" "}
         </li>
         <li>
-          <div className={`lien ${!sidebarVisible ? "lienSidebar" : ""}`}>Diagramme De Deploiement</div>{" "}
+          <div className={`Uml-lien  ${!sidebarVisible ? "lienSidebar" : ""}`}>- Diagramme De Deploiement</div>{" "}
         </li>
         <li>
-          <div className={`lien ${!sidebarVisible ? "lienSidebar" : ""}`}> Diagramme D'objets</div>
+          <div className={`Uml-lien  ${!sidebarVisible ? "lienSidebar" : ""}`}> - Diagramme D'objets</div>
         </li>
         <li>
-          <div className={`lien ${!sidebarVisible ? "lienSidebar" : ""}`}> Diagramme De Paquetage</div>
+          <div className={`Uml-lien  ${!sidebarVisible ? "lienSidebar" : ""}`}> - Diagramme De Paquetage</div>
         </li>
         <li>
-          <div className={`lien ${!sidebarVisible ? "lienSidebar" : ""}`}> Diagramme D'Activite</div>
+          <div className={`Uml-lien  ${!sidebarVisible ? "lienSidebar" : ""}`}> - Diagramme D'Activite</div>
         </li>
         <li>
-          <div className={`lien ${!sidebarVisible ? "lienSidebar" : ""}`}> Diagramme De Cas D'Utilisation</div>
+          <div className={`Uml-lien  ${!sidebarVisible ? "lienSidebar" : ""}`}> - Diagramme De Cas D'Utilisation</div>
         </li>
         <li>
-          <div className={`lien ${!sidebarVisible ? "lienSidebar" : ""}`}> Diagramme De Communication</div>
+          <div className={`Uml-lien  ${!sidebarVisible ? "lienSidebar" : ""}`}> - Diagramme De Communication</div>
         </li>
         <li>
-          <div className={`lien ${!sidebarVisible ? "lienSidebar" : ""}`}> Diagramme D'Etat</div>
+          <div className={`Uml-lien  ${!sidebarVisible ? "lienSidebar" : ""}`}> - Diagramme D'Etat</div>
         </li>
         <li>
-          <div className={`lien ${!sidebarVisible ? "lienSidebar" : ""}`}> Diagramme De Temps</div>
+          <Link to="/UML#test">
+            <div className={`Uml-lien  ${!sidebarVisible ? "lienSidebar" : ""}`}> - Diagramme De Temps</div>
+          </Link>
         </li>
         <li>
-          <div className={`lien ${!sidebarVisible ? "lienSidebar" : ""}`}>
-            {" "}
-            Diagramme De Presentation Des Interactions
+          <div className={`Uml-lien   ${!sidebarVisible ? "lienSidebar" : ""}`}>
+            - Diagramme De Presentation Des Interactions
           </div>
         </li>
         <li>
-          <div className={`lien ${!sidebarVisible ? "lienSidebar" : ""}`}> Diagramme De Profil</div>
+          <div className={`Uml-lien  ${!sidebarVisible ? "lienSidebar" : ""}`}> - Diagramme De Profil</div>
         </li>
         <li>
-          <div className={`lien ${!sidebarVisible ? "lienSidebar" : ""}`}> DiagrammeDeSequence</div>
+          <div className={`Uml-lien  ${!sidebarVisible ? "lienSidebar" : ""}`}> - DiagrammeDeSequence</div>
         </li>
         <li>
-          <div className={`lien ${!sidebarVisible ? "lienSidebar" : ""}`}> DiagrammeDeStructureComposite</div>
+          <div className={`Uml-lien  ${!sidebarVisible ? "lienSidebar" : ""}`}> - DiagrammeDeStructureComposite</div>
         </li>
         <li>
-          <NavLink to="UMLClasses">
-            <div className={`lien ${!sidebarVisible ? "lienSidebar" : ""}`}>Diagrammes de classes</div>
-          </NavLink>
-        </li>
-        <li>
-          <NavLink to="UML">
-            <div className={`lien ${!sidebarVisible ? "lienSidebar" : ""}`}>UML</div>
+          <NavLink to="/Merise">
+            <div className={`lien ${!sidebarVisible ? "lienSidebar" : ""}`}>Merise</div>
           </NavLink>
         </li>
       </ul>
