@@ -6,6 +6,7 @@ import MeriseGestionDesDonnees from "./MeriseGestionDesDonnees";
 import MeriseFluxDEvenements from "./MeriseFluxDEvenements";
 import MeriseCycleDeVie from "./MeriseCycleDeVie";
 import MeriseOrganisationnel from "./MeriseOrganisationnel";
+import MeriseFluxConceptuels from "./MeriseFluxConceptuels";
 
 const DiagrammeMerise = () => {
   return (
@@ -30,6 +31,7 @@ const DiagrammeMerise = () => {
         <MeriseFluxDEvenements />
         <MeriseCycleDeVie />
         <MeriseOrganisationnel />
+        <MeriseFluxConceptuels />
       </div>
     </div>
   );
