@@ -6,11 +6,11 @@ const MeriseFluxDEvenements = () => {
       <h3>Diagramme de flux d'évenements</h3>
       <p>
         Le Diagramme de Flux d'Événements (DFE), également connu sous le nom de Diagramme de Flux d'Événements et de
-        Traitements (DFET), est un outil de modélisation utilisé dans la méthode MERISE pour représenter comment les
-        événements externes déclenchent les processus ou les traitements au sein d'un système d'information. Les DFE
-        sont particulièrement utiles pour comprendre comment les interactions entre les acteurs externes et le système
-        affectent le comportement de ce dernier. Voici une explication plus détaillée des éléments clés d'un Diagramme
-        de Flux d'Événements (DFE) :
+        Traitements (DFET), est un outil de modélisation utilisé pour représenter comment les événements externes
+        déclenchent les processus ou les traitements au sein d'un système d'information. Les DFE sont particulièrement
+        utiles pour comprendre comment les interactions entre les acteurs externes et le système affectent le
+        comportement de ce dernier. Voici une explication plus détaillée des éléments clés d'un Diagramme de Flux
+        d'Événements (DFE) :
         <li>
           Acteurs Externes : Les acteurs externes sont des entités en dehors du système qui interagissent avec celui-ci.
           Ce sont généralement des utilisateurs, d'autres systèmes, des organisations, etc. Dans un DFE, les acteurs
