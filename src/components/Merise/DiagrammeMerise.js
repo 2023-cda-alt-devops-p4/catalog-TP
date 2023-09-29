@@ -32,6 +32,7 @@ const DiagrammeMerise = () => {
         <MeriseCycleDeVie />
         <MeriseOrganisationnel />
         <MeriseFluxConceptuels />
+        <MeriseOrganisationnel />
       </div>
     </div>
   );
