@@ -3,7 +3,7 @@ import React from "react";
 const MeriseFluxOrganisationnel = () => {
   return (
     <div>
-      <h3>Diagramme de Flux de Données Niveau Conceptuel</h3>
+      <h3>Diagramme de Flux de Données Niveau Organisationnel</h3>
       <p>
         Le Diagramme de Flux de Données Niveau Organisationnel (DFD-O) est un type de diagramme utilisé dans la méthode
         MERISE pour modéliser la manière dont les données circulent au sein d'un système d'information à un niveau
