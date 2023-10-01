@@ -3,7 +3,7 @@ import React from "react";
 const MeriseStructureDesTraitement = () => {
   return (
     <div>
-      <h3>Diagramme de Flux de Données Niveau Physique</h3>
+      <h3>Diagramme de Structure des Traitements</h3>
       <p>
         Le Diagramme de Structure des Traitements (DST) est un outil de modélisation utilisé dans la méthode MERISE pour
         représenter la structure interne d'un processus ou d'un module logiciel au sein d'un système d'information. Le
