@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink, Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Sidebar = () => {
   const [sidebarVisible, setSidebarVisible] = useState(false);
@@ -61,9 +61,7 @@ const Sidebar = () => {
           <div className={`Uml-lien  ${!sidebarVisible ? "lienSidebar" : ""}`}> - Diagramme D'Etat</div>
         </li>
         <li>
-          <Link to="/UML#test">
-            <div className={`Uml-lien  ${!sidebarVisible ? "lienSidebar" : ""}`}> - Diagramme De Temps</div>
-          </Link>
+          <div className={`Uml-lien  ${!sidebarVisible ? "lienSidebar" : ""}`}> - Diagramme De Temps</div>
         </li>
         <li>
           <div className={`Uml-lien   ${!sidebarVisible ? "lienSidebar" : ""}`}>
@@ -83,6 +81,60 @@ const Sidebar = () => {
           <NavLink to="/Merise">
             <div className={`lien ${!sidebarVisible ? "lienSidebar" : ""}`}>Merise</div>
           </NavLink>
+        </li>
+        <li>
+          <div className={`Uml-lien  ${!sidebarVisible ? "lienSidebar" : ""}`}> - Diagramme des Flux de Donnees</div>
+        </li>
+        <li>
+          <div className={`Uml-lien  ${!sidebarVisible ? "lienSidebar" : ""}`}> - Diagramme Entite-Relation</div>
+        </li>
+        <li>
+          <div className={`Uml-lien  ${!sidebarVisible ? "lienSidebar" : ""}`}>
+            {" "}
+            - Diagramme des Specification des Traitements
+          </div>
+        </li>
+        <li>
+          <div className={`Uml-lien  ${!sidebarVisible ? "lienSidebar" : ""}`}> - Diagramme Gestion des Donnees</div>
+        </li>
+        <li>
+          <div className={`Uml-lien  ${!sidebarVisible ? "lienSidebar" : ""}`}> - Diagramme de Flux d'évenements</div>
+        </li>
+        <li>
+          <div className={`Uml-lien  ${!sidebarVisible ? "lienSidebar" : ""}`}> - Diagramme de Cycle de Vie</div>
+        </li>
+        <li>
+          <div className={`Uml-lien  ${!sidebarVisible ? "lienSidebar" : ""}`}> - Diagramme Organisationnel</div>
+        </li>
+        <li>
+          <div className={`Uml-lien  ${!sidebarVisible ? "lienSidebar" : ""}`}>
+            {" "}
+            - Diagramme de Flux de données niveau Conceptuels
+          </div>
+        </li>
+        <li>
+          <div className={`Uml-lien  ${!sidebarVisible ? "lienSidebar" : ""}`}>
+            {" "}
+            - Diagramme de Flux de données niveau Organisationnel
+          </div>
+        </li>
+        <li>
+          <div className={`Uml-lien  ${!sidebarVisible ? "lienSidebar" : ""}`}>
+            {" "}
+            - Diagramme de Flux de Données Niveau Physique
+          </div>
+        </li>
+        <li>
+          <div className={`Uml-lien  ${!sidebarVisible ? "lienSidebar" : ""}`}>
+            {" "}
+            - Diagramme de Structure des Traitements
+          </div>
+        </li>
+        <li>
+          <div className={`Uml-lien  ${!sidebarVisible ? "lienSidebar" : ""}`}>
+            {" "}
+            - Diagramme de description des traitement
+          </div>
         </li>
       </ul>
     </div>

@@ -47,9 +47,7 @@ const DiagrammeStructurels = () => {
         <DiagrammeDePresentationDesInteractions />
         <DiagrammeDeSequence />
         <DiagrammeDEtat />
-        <div id="test">
-          <DiagrammeDeTemps />
-        </div>
+        <DiagrammeDeTemps />
       </div>
     </div>
   );

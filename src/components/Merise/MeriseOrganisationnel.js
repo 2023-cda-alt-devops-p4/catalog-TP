@@ -3,7 +3,7 @@ import React from "react";
 const MeriseOrganisationnel = () => {
   return (
     <div>
-      <h3>Diagramme de Cycle de vie</h3>
+      <h3>Diagramme organisationnel</h3>
       <p>
         Le Diagramme Organisationnel (DO) est un type de diagramme utilisé pour modéliser la structure organisationnelle
         d'une entreprise ou d'un système. Il permet de représenter les différentes entités organisationnelles, les
@@ -12,42 +12,42 @@ const MeriseOrganisationnel = () => {
         et les responsabilités sont réparties. Voici une explication plus détaillée des éléments clés d'un Diagramme
         Organisationnel (DO) :
         <li>
-          Entités Organisationnelles : Les entités organisationnelles représentent les unités de l'organisation, telles
-          que les départements, les divisions, les équipes, les filiales, etc. Chaque entité organisationnelle est
-          généralement représentée par un rectangle avec un nom. Par exemple, une entreprise peut avoir des entités
+          - Entités Organisationnelles : Les entités organisationnelles représentent les unités de l'organisation,
+          telles que les départements, les divisions, les équipes, les filiales, etc. Chaque entité organisationnelle
+          est généralement représentée par un rectangle avec un nom. Par exemple, une entreprise peut avoir des entités
           organisationnelles telles que "Département des ventes", "Département de la comptabilité", "Département de la
           production", etc.
         </li>
         <li>
-          Relations : Les relations entre les entités organisationnelles montrent comment elles sont connectées ou
+          - Relations : Les relations entre les entités organisationnelles montrent comment elles sont connectées ou
           hiérarchisées au sein de l'organisation. Par exemple, une relation peut indiquer que le "Département des
           ventes" relève de la "Direction commerciale". Les relations sont généralement représentées par des flèches ou
           des lignes qui relient les entités.
         </li>
         <li>
-          Postes de Travail : Les postes de travail représentent les positions ou les rôles occupés par les employés au
-          sein de l'organisation. Chaque poste de travail est généralement associé à une entité organisationnelle
+          - Postes de Travail : Les postes de travail représentent les positions ou les rôles occupés par les employés
+          au sein de l'organisation. Chaque poste de travail est généralement associé à une entité organisationnelle
           spécifique. Par exemple, le "Département des ventes" peut avoir des postes de travail tels que "Vendeur",
           "Responsable des ventes", etc.
         </li>
         <li>
-          Employés : Les employés sont les individus qui occupent les postes de travail au sein de l'organisation. Dans
-          un Diagramme Organisationnel, les employés ne sont généralement pas représentés individuellement, mais ils
-          sont associés aux postes de travail ou aux entités organisationnelles correspondantes.
+          - Employés : Les employés sont les individus qui occupent les postes de travail au sein de l'organisation.
+          Dans un Diagramme Organisationnel, les employés ne sont généralement pas représentés individuellement, mais
+          ils sont associés aux postes de travail ou aux entités organisationnelles correspondantes.
         </li>
         <li>
-          Niveaux Hiérarchiques : Les niveaux hiérarchiques indiquent la position relative des entités
+          - Niveaux Hiérarchiques : Les niveaux hiérarchiques indiquent la position relative des entités
           organisationnelles les unes par rapport aux autres dans la structure organisationnelle. Par exemple, une
           entreprise peut avoir plusieurs niveaux hiérarchiques, tels que "Direction générale", "Directions
           départementales", "Équipes de projet", etc.
         </li>
         <li>
-          Responsabilités : Les Diagrammes Organisationnels peuvent également indiquer les responsabilités associées à
+          - Responsabilités : Les Diagrammes Organisationnels peuvent également indiquer les responsabilités associées à
           chaque entité organisationnelle ou poste de travail. Cela peut inclure la description des tâches, des
           fonctions et des autorités.
         </li>
         <li>
-          Communication : Les flèches ou les lignes reliant les entités organisationnelles peuvent également indiquer
+          - Communication : Les flèches ou les lignes reliant les entités organisationnelles peuvent également indiquer
           les canaux de communication ou de rapport entre elles. Par exemple, une flèche peut représenter un rapport
           direct d'une entité à une autre.
         </li>

@@ -12,30 +12,30 @@ const DiagrammeDePaquetage = () => {
       <p>
         Supposons que nous voulions créer un diagramme de paquetage pour représenter un système de gestion d'école.
         <li>
-          Paquets (packages) : Les paquets sont comme des dossiers ou des conteneurs logiques qui regroupent des
+          - Paquets (packages) : Les paquets sont comme des dossiers ou des conteneurs logiques qui regroupent des
           éléments connexes dans un système. Dans notre exemple, nous pourrions avoir des paquets tels que "Étudiants",
           "Enseignants", "Cours", "Bibliothèque", etc. Chaque paquet est représenté par une boîte rectangulaire avec son
           nom.
         </li>
         <li>
-          Éléments du paquet (package elements) : Les éléments du paquet sont les éléments qui résident à l'intérieur
+          - Éléments du paquet (package elements) : Les éléments du paquet sont les éléments qui résident à l'intérieur
           des paquets. Ceux-ci peuvent être des classes, des sous-paquets, des interfaces, etc. Par exemple, le paquet
           "Étudiants" peut contenir des classes telles que "Étudiant", "Inscription", et "Notes". Chaque élément du
           paquet est généralement représenté par une boîte ou un rectangle avec son nom.
         </li>
         <li>
-          Relations entre les paquets : Les diagrammes de paquetage montrent comment les paquets sont organisés et
+          - Relations entre les paquets : Les diagrammes de paquetage montrent comment les paquets sont organisés et
           comment ils interagissent les uns avec les autres. Vous pouvez utiliser des flèches pour indiquer les
           dépendances entre les paquets. Par exemple, le paquet "Cours" peut dépendre du paquet "Enseignants" pour
           accéder aux informations sur les enseignants qui dispensent les cours.
         </li>
         <li>
-          Organisation hiérarchique : Les paquets peuvent également être organisés de manière hiérarchique, où des
+          - Organisation hiérarchique : Les paquets peuvent également être organisés de manière hiérarchique, où des
           paquets plus généraux (comme "École") contiennent des paquets plus spécifiques (comme "Étudiants" et
           "Enseignants"). Cette structure hiérarchique aide à organiser le système de manière logique.
         </li>
         <li>
-          Annotations : Les diagrammes de paquetage peuvent inclure des annotations pour fournir des informations
+          - Annotations : Les diagrammes de paquetage peuvent inclure des annotations pour fournir des informations
           supplémentaires sur les paquets ou les éléments du paquet. Par exemple, vous pourriez ajouter des descriptions
           pour expliquer la fonction ou la responsabilité de chaque paquet.
         </li>
